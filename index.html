@@ -31,10 +31,12 @@
         <nav class="navbar navbar-expand-lg  ">
             <div class="container">
                 <a class="navbar-brand text-light navBrand" href="#">Pacifico</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                <button class="navbar-toggler toggoler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="">
+                        <i class="fa-solid fa-bars text-light"></i>
+                    </span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 d-flex justify-content-end">
@@ -42,28 +44,30 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                            <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link">Disabled</a>
+                            <a href="#gallery" class="nav-link">Gallery</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#team">Team</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                            <a class="nav-link" href="#services">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link">Disabled</a>
+                            <a href="#features" class="nav-link">Features</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#price">Pricing</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                            <a class="nav-link" href="#blogs">Blog</a>
                         </li>
                         <li class="nav-item">
-                            <button class="cbtn"">Get Started</button>
+                            <a href="#getinTouch">
+                                <button class="cbtn"">Get Started</button>
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -74,55 +78,193 @@
 
     <!--slider section start here -->
     <section class=" slider">
-                                <div class="container">
-                                    <div class=" row pt-5 text-light">
-                                        <div class="col-sm-12 col-md-6 pt-5">
-                                            <h1>Get Your 30 Days Free Trial</h1>
-                                            <p>
-                                                Curabitur quam etsum lacus etsumis nulatis etsumised vitae nisledita
-                                                ipsum netsum etim quias ligula aliquam ets vitae situm net coloris.
-                                            </p>
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <input type="text"
-                                                        class="border p-3 text-light mt-3 w-100 inputslider" required
-                                                        placeholder="Full Name*">
-                                                    <input type="text"
-                                                        class="border p-3 text-light mt-3 w-100 inputslider" required
-                                                        placeholder="Email address*">
+                                    <div class="container">
+                                        <div class=" row pt-5 text-light">
+                                            <div class="col-sm-12 col-md-6 pt-5">
+                                                <h1>Get Your 30 Days Free Trial</h1>
+                                                <p>
+                                                    Curabitur quam etsum lacus etsumis nulatis etsumised vitae nisledita
+                                                    ipsum netsum etim quias ligula aliquam ets vitae situm net coloris.
+                                                </p>
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <input type="text"
+                                                            class="border p-3 text-light mt-3 w-100 inputslider"
+                                                            required placeholder="Full Name*">
+                                                        <input type="text"
+                                                            class="border p-3 text-light mt-3 w-100 inputslider"
+                                                            required placeholder="Email address*">
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <input type="text"
+                                                            class="border p-3 text-light mt-3 w-100 inputslider"
+                                                            required placeholder="Phone Number*">
+                                                        <input type="text"
+                                                            class="border p-3 text-light mt-3 w-100 inputslider"
+                                                            required placeholder="Package Name*">
+                                                    </div>
+                                                    <div>
+                                                        <button class="w-100 p-3 border mt-3 btnslider">register
+                                                            now</button>
+                                                        <p class="pt-3 text-light">We process the payment via a
+                                                            secure
+                                                            gateway.</p>
+                                                    </div>
                                                 </div>
-                                                <div class="col-md-6">
-                                                    <input type="text"
-                                                        class="border p-3 text-light mt-3 w-100 inputslider" required
-                                                        placeholder="Phone Number*">
-                                                    <input type="text"
-                                                        class="border p-3 text-light mt-3 w-100 inputslider" required
-                                                        placeholder="Package Name*">
+                                            </div>
+                                            <div class="col-sm-12 col-md-6 manImagewrp">
+                                                <img class="manImage" src="./image/business-woman2.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </section>
+                                    <!--slider section end here -->
+
+
+                                    <!-- how is work section start here -->
+                                    <section id="about">
+                                        <div class="contaener">
+                                            <div class="m-5">
+                                                <div class="text-center mb-2">
+                                                    <h1 class="font-weight-bold pt-5">How it Work</h1>
+                                                    <p class="text-center text-muted w-50 m-auto">
+                                                        There are many variations of passages of Lorem Ipsum available,
+                                                        but
+                                                        the
+                                                        majority
+                                                        have suffered alteration, by injected humour, or new randomised
+                                                        words.
+                                                    </p>
                                                 </div>
-                                                <div>
-                                                    <button class="w-100 p-3 border mt-3 btnslider">register
-                                                        now</button>
-                                                    <p class="pt-3 text-light">We process the payment via a
-                                                        secure
-                                                        gateway.</p>
+                                                <div class="w-75 m-auto row">
+                                                    <div
+                                                        class="col-md-4 d-flex flex-column align-items-center justify-content-center mt-5">
+                                                        <i class="fa-solid fa-magnifying-glass howWorkIcons"></i>
+                                                        <h5 class="text-center">Search Oportunities</h5>
+                                                        <p class="text-center text-muted">
+                                                            Curabitur quam etsum lacus etsumis nulat iaculis ets vitae
+                                                            etsum
+                                                            nisle varius sed aliquam ets vitae dictis netsum.
+                                                        </p>
+                                                    </div>
+                                                    <div
+                                                        class="col-md-4 d-flex flex-column align-items-center justify-content-center mt-5 ">
+                                                        <i class="fa-solid fa-chart-simple howWorkIcons"></i>
+                                                        <h5 class="text-center">Reach Clients</h5>
+                                                        <p class="text-center text-muted">
+                                                            Curabitur quam etsum lacus etsumis nulat iaculis ets vitae
+                                                            etsum
+                                                            nisle varius sed aliquam ets vitae dictis netsum.
+                                                        </p>
+                                                    </div>
+                                                    <div
+                                                        class="col-md-4 d-flex flex-column align-items-center justify-content-center mt-5">
+                                                        <i class="fa-solid fa-award howWorkIcons"></i>
+                                                        <h5 class="text-center">Get Rewarded</h5>
+                                                        <p class="text-center text-muted">
+                                                            Curabitur quam etsum lacus etsumis nulat iaculis ets vitae
+                                                            etsum
+                                                            nisle varius sed aliquam ets vitae dictis netsum.
+                                                        </p>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-12 col-md-6">
-                                            <img src="./image/business-woman2.png" alt="">
+                                    </section>
+                                    <!-- how is work section end here -->
+
+
+                                    <!-- get ready to discver section start here -->
+                                    <section class="getreadySection">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-sm-12 col-md-12 col-lg-6 mt-5 mb-5">
+                                                    <img class="w-100" src="./image/image-section.jpg" alt="">
+                                                </div>
+                                                <div class="col-sm-12 col-md-12 col-lg-6 mt-5 mb-5">
+                                                    <h3 class="text-weight-bold p-3">
+                                                        Get ready to discover all the benefits and secrets of a perfect
+                                                        launch
+                                                    </h3>
+                                                    <p class="text-muted p-3">
+                                                        Nemo enim ipsam voluptatem quia voluptas sit aspernatur netsum
+                                                        lorem
+                                                        fugit, sed quia magni dolores eos qui ratione sequi nesciunt.
+                                                        Neque
+                                                        et poris ratione sequi enim ipsam voluptatem quia volupti tempor
+                                                        ante netsum quia magni.
+                                                    </p>
+                                                    <ul class="listgroup">
+                                                        <li class="">
+                                                            <i class="fa-solid fa-check"></i>
+                                                            Netsum est, qui ipsum quiaim netsum sequi net tempor.
+                                                        </li>
+                                                        <li>
+                                                            <i class="fa-solid fa-check"></i>
+                                                            Etiam tempor ante acu ipsum finibus, atimus urnas.
+                                                        </li>
+                                                        <li>
+                                                            <i class="fa-solid fa-check"></i>
+                                                            Atimus urnas netsudat, qui ipsum quiaim netsum.
+                                                        </li>
+                                                        <li>
+                                                            <i class="fa-solid fa-check"></i>
+                                                            Etiam tempor ante acum ipsum et finibus.
+                                                        </li>
+                                                    </ul>
+                                                    <button class="m-3 banckground cbtn">Discover More</button>
+
+                                                </div>
+                                            </div>
                                         </div>
-                                    </div>
-                                </div>
-                                </section>
-                                <!--slider section end here -->
+                                    </section>
+                                    <!-- get ready to discver section end here -->
+
+                                    <!-- explore prjects section start here -->
+
+                                    <section id="gallery" class=" pb-5 banckground">
+                                        <div class="container">
+                                            <div class="text-center mb-2 text-light">
+                                                <h1 class="font-weight-bold pt-5">Explore Latest Projects</h1>
+                                                <p class="text-center text-light w-50 m-auto">
+                                                    There are many variations of passages of Lorem Ipsum available, but
+                                                    the
+                                                    majority
+                                                    have suffered alteration, by injected humour, or new randomised
+                                                    words.
+                                                </p>
+                                            </div>
+                                            <div class="pb-5 pt-5 explorewrper">
 
 
-                                <!-- how is work section start here -->
-                                <section>
-                                    <div class="contaener">
-                                        <div class="m-5">
+                                                <div class="exploreItems">
+                                                    hdfghfg
+                                                </div>
+                                                <div class="exploreItems">
+                                                    hdfghfg
+                                                </div>
+
+
+
+                                            </div>
+                                        </div>
+
+                                    </section>
+
+                                    <!-- explore prjects section end here -->
+
+
+
+
+
+
+
+                                    <!-- the team section start here -->
+                                    <section id="team" class="pb-5">
+                                        <div class="container">
+
                                             <div class="text-center mb-2">
-                                                <h1 class="font-weight-bold pt-5">How it Work</h1>
+                                                <h1 class="font-weight-bold pt-5">The Team Behind Pacifico</h1>
                                                 <p class="text-center text-muted w-50 m-auto">
                                                     There are many variations of passages of Lorem Ipsum available, but
                                                     the
@@ -131,274 +273,480 @@
                                                     words.
                                                 </p>
                                             </div>
-                                            <div class="w-75 m-auto row">
-                                                <div
-                                                    class="col-md-4 d-flex flex-column align-items-center justify-content-center mt-5">
-                                                    <i class="fa-solid fa-magnifying-glass howWorkIcons"></i>
-                                                    <h5 class="text-center">Search Oportunities</h5>
-                                                    <p class="text-center text-muted">
-                                                        Curabitur quam etsum lacus etsumis nulat iaculis ets vitae etsum
-                                                        nisle varius sed aliquam ets vitae dictis netsum.
-                                                    </p>
+
+                                            <div class="row pb-5 pt-5">
+                                                <div class="col-sm-12 col-md-6 col-lg-3 teamItems">
+                                                    1
                                                 </div>
-                                                <div
-                                                    class="col-md-4 d-flex flex-column align-items-center justify-content-center mt-5 ">
-                                                    <i class="fa-solid fa-chart-simple howWorkIcons"></i>
-                                                    <h5 class="text-center">Reach Clients</h5>
-                                                    <p class="text-center text-muted">
-                                                        Curabitur quam etsum lacus etsumis nulat iaculis ets vitae etsum
-                                                        nisle varius sed aliquam ets vitae dictis netsum.
-                                                    </p>
+                                                <div class="col-sm-12 col-md-6 col-lg-3 teamItems">
+                                                    1
                                                 </div>
-                                                <div
-                                                    class="col-md-4 d-flex flex-column align-items-center justify-content-center mt-5">
-                                                    <i class="fa-solid fa-chart-simple howWorkIcons"></i>
-                                                    <h5 class="text-center">Get Rewarded</h5>
-                                                    <p class="text-center text-muted">
-                                                        Curabitur quam etsum lacus etsumis nulat iaculis ets vitae etsum
-                                                        nisle varius sed aliquam ets vitae dictis netsum.
-                                                    </p>
+                                                <div class="col-sm-12 col-md-6 col-lg-3 teamItems">
+                                                    1
+                                                </div>
+                                                <div class="col-sm-12 col-md-6 col-lg-3 teamItems">
+                                                    1
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                </section>
-                                <!-- how is work section end here -->
+                                    </section>
+                                    <!-- the team section start here -->
 
 
-                                <!-- get ready to discver section start here -->
-                                <section class="getreadySection">
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col-sm-12 col-md-12 col-lg-6 mt-5 mb-5">
-                                                <img class="w-100" src="./image/image-section.jpg" alt="">
-                                            </div>
-                                            <div class="col-sm-12 col-md-12 col-lg-6 mt-5 mb-5">
-                                                <h3 class="text-weight-bold p-3">
-                                                    Get ready to discover all the benefits and secrets of a perfect
-                                                    launch
-                                                </h3>
-                                                <p class="text-muted p-3">
-                                                    Nemo enim ipsam voluptatem quia voluptas sit aspernatur netsum lorem
-                                                    fugit, sed quia magni dolores eos qui ratione sequi nesciunt. Neque
-                                                    et poris ratione sequi enim ipsam voluptatem quia volupti tempor
-                                                    ante netsum quia magni.
+                                    <!-- clients feedback section start here -->
+                                    <section class="clientfeedback">
+
+                                    </section>
+                                    <!-- clients feedback section end here -->
+
+
+
+                                    <!-- our servise section start here -->
+                                    <section id="services" class="ourservise">
+                                        <div class="container">
+                                            <div class="text-center mb-2 text-light">
+                                                <h1 class="font-weight-bold pt-5">Discover Our Services</h1>
+                                                <p class="text-center blackmuted w-50 m-auto">
+                                                    There are many variations of passages of Lorem Ipsum available, but
+                                                    the
+                                                    majority
+                                                    have suffered alteration, by injected humour, or new randomised
+                                                    words.
                                                 </p>
-                                                <ul class="listgroup">
-                                                    <li class="">
-                                                        <i class="fa-solid fa-check"></i>
-                                                        Netsum est, qui ipsum quiaim netsum sequi net tempor.
-                                                    </li>
-                                                    <li>
-                                                        <i class="fa-solid fa-check"></i>
-                                                        Etiam tempor ante acu ipsum finibus, atimus urnas.
-                                                    </li>
-                                                    <li>
-                                                        <i class="fa-solid fa-check"></i>
-                                                        Atimus urnas netsudat, qui ipsum quiaim netsum.
-                                                    </li>
-                                                    <li>
-                                                        <i class="fa-solid fa-check"></i>
-                                                        Etiam tempor ante acum ipsum et finibus.
-                                                    </li>
-                                                </ul>
-                                                <button class="m-3 banckground cbtn">Discover More</button>
+                                            </div>
+                                            <div class="pt-5 pb-5">
+                                                <div class="row">
+                                                    <div
+                                                        class="col-sm-12 col-md-4 col-lg-4  d-flex align-items-center justify-content-center gap-4 pb-4">
+                                                        <i class="fa-solid fa-headset text-light serviseIcons"></i>
+                                                        <div class="d-flex flex-column text-light">
+                                                            <h5>
+                                                                Support 24/7
+                                                            </h5>
+                                                            <p class="blackmuted">
+                                                                Utise wisi enim minim veniam, quis tation ullamcorper
+                                                                suscipit et loboti nisl consequat, wisi ad minim
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="col-sm-12 col-md-4 col-lg-4  d-flex align-items-center justify-content-center gap-4 pb-4">
+                                                        <i class="fa-solid fa-users serviseIcons"></i>
+                                                        <div class="d-flex flex-column text-light">
+                                                            <h5>User Friendly</h5>
+                                                            <p class="blackmuted">
+                                                                Utise wisi enim minim veniam, quis tation ullamcorper
+                                                                suscipit et loboti nisl consequat, wisi ad minim
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="col-sm-12 col-md-4 col-lg-4  d-flex align-items-center justify-content-center gap-4 pb-4">
+                                                        <i class="fa-solid fa-bell serviseIcons"></i>
+                                                        <div class="d-flex flex-column text-light">
+                                                            <h5>
+                                                                Notifications</h5>
+                                                            <p class="blackmuted">
+                                                                Utise wisi enim minim veniam, quis tation ullamcorper
+                                                                suscipit et loboti nisl consequat, wisi ad minim
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="col-sm-12 col-md-4 col-lg-4  d-flex align-items-center justify-content-center gap-4 pb-4">
+                                                        <i class="fa-solid fa-comments serviseIcons"></i>
+                                                        <div class="d-flex flex-column text-light">
+                                                            <h5>
+                                                                Chat With Friends</h5>
+                                                            <p class="blackmuted">
+                                                                Utise wisi enim minim veniam, quis tation ullamcorper
+                                                                suscipit et loboti nisl consequat, wisi ad minim
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="col-sm-12 col-md-4 col-lg-4  d-flex align-items-center justify-content-center gap-4 pb-4">
+                                                        <i class="fa-solid fa-hands serviseIcons"></i>
+                                                        <div class="d-flex flex-column text-light">
+                                                            <h5>
+                                                                Accesability</h5>
+                                                            <p class="blackmuted">
+                                                                Utise wisi enim minim veniam, quis tation ullamcorper
+                                                                suscipit et loboti nisl consequat, wisi ad minim.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="col-sm-12 col-md-4 col-lg-4  d-flex align-items-center justify-content-center gap-4 pb-4">
+                                                        <i class="fa-solid fa-mask serviseIcons"></i>
+                                                        <div class=" d-flex flex-column text-light">
+                                                            <h5>
+                                                                Cost Control</h5>
+                                                            <p class="blackmuted">
+                                                                Utise wisi enim minim veniam, quis tation ullamcorper
+                                                                suscipit et loboti nisl consequat, wisi ad minim.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
 
+                                        </div>
+
+                                    </section>
+                                    <!-- our servise section end here -->
+
+
+                                    <!-- secend get ready sectoin start from here -->
+                                    <section id="features">
+                                        <div class="container">
+                                            <div class="row mt-4 mb-4">
+                                                <div class="col-sm-12 col-md-12 col-lg-6 mt-5 mb-5">
+                                                    <div class="m-3 pb-3 sececndGetreadyh3andspanwrp">
+                                                        <h3 class="text-weight-bold pb-3">
+                                                            Get ready to discover all the benefits and secrets of a
+                                                            perfect
+                                                            launch
+                                                        </h3>
+                                                        <span class=" pt-3 sececndGetreadySpan">
+                                                            <i class="fa-solid fa-rocket rokecticons"></i>
+                                                            Is the app available
+                                                            in
+                                                            all
+                                                            countries?</span>
+                                                    </div>
+                                                    <p class="text-muted p-3">
+                                                        Nemo enim ipsam voluptatem quia voluptas sit aspernatur netsum
+                                                        lorem
+                                                        fugit, sed quia magni dolores eos qui ratione sequi nesciunt.
+                                                        Neque
+                                                        et poris ratione sequi enim ipsam voluptatem quia volupti tempor
+                                                        ante netsum quia magni.
+                                                    </p>
+                                                    <ul class="listgroup">
+                                                        <li class=" pt-3">
+                                                            <span class=" sececndGetreadySpan">
+                                                                <i class="fa-solid fa-trophy"></i>
+                                                                How can I manage or stop the notifications I
+                                                                receive?</span>
+                                                        </li>
+                                                        <li class="pt-3">
+                                                            <span class=" sececndGetreadySpan">
+                                                                <i class="fa-solid fa-gift"></i>
+                                                                Can I use the subscription on more than one
+                                                                device?</span>
+                                                        </li>
+                                                        <li class="pt-3">
+                                                            <span class=" sececndGetreadySpan">
+                                                                <i class="fa-solid fa-leaf"></i>
+                                                                Can I use the subscription on more than one
+                                                                device?</span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-sm-12 col-md-12 col-lg-6 mt-5 mb-5">
+                                                    <img class="w-100" src="./image/image-section.jpg" alt="">
+                                                </div>
                                             </div>
                                         </div>
+                </div>
+                </section>
+                <!-- secend get ready sectoin end from here -->
+
+
+                <!-- counter section start from here -->
+                <section class="countersectoin">
+                    <div class="container pt-5 pb-5">
+                        <div class="d-flex justify-content-between align-items-center pt-3 pb-3">
+                            <div class="d-flex flex-column align-items-center justify-content-center">
+                                <i class="fa-sharp fa-solid fa-diagram-project counterIcons pb-2"></i>
+                                <h3 class="counter text-center">1050+</h3>
+                                <p class="text-muted text-center">Projects Completed</p>
+                            </div>
+                            <div class="d-flex flex-column align-items-center justify-content-center">
+                                <i class="fa-solid fa-face-smile counterIcons pb-2"></i>
+                                <h3 class="counter text-center">217k</h3>
+                                <p class="text-muted text-center">Happy Clients</p>
+                            </div>
+                            <div class="d-flex flex-column align-items-center justify-content-center">
+                                <i class="fa-solid fa-award counterIcons pb-2"></i>
+                                <h3 class="counter text-center">1210</h3>
+                                <p class="text-muted text-center">Design Awards</p>
+                            </div>
+                            <div class="d-flex flex-column align-items-center justify-content-center">
+                                <i class="fa-solid fa-mug-saucer counterIcons pb-2"></i>
+                                <h3 class="counter text-center">2137</h3>
+                                <p class="text-muted text-center">Cups Of Coffee</p>
+                            </div>
+                            <div class="d-flex flex-column align-items-center justify-content-center">
+                                <i class="fa-solid fa-headset counterIcons pb-2"></i>
+                                <h3 class="counter text-center">24/7</h3>
+                                <p class="text-muted text-center">Fast Support</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+                <!-- counter section end from here -->
+
+
+                <!-- promote your bussiness section start from here -->
+                <section class="banckground">
+                    <div class="container">
+                        <div class=" row pt-5 text-light">
+                            <div class="col-sm-12 col-md-6 pt-5 manImagewrp">
+
+                                <img class="manImage" src="./image/business-woman.png" alt="">
+
+
+                            </div>
+                            <div class="col-sm-12 col-md-6 pt-3">
+                                <h1>Ready To Promote Your Business?</h1>
+                                <p>
+                                    Ready To Promote Your Business?
+                                    There are many variations of passages of Lorem Ipsum available, but majority have
+                                    suffered alteration by new randomised words.
+                                </p>
+                                <div>
+                                    <div class="d-flex align-items-center gap-3 ">
+                                        <i class="fa-solid fa-plane promotIcons"></i>
+                                        <p class="pt-2">Tendis tempor ante acu ipsum finibus, et atimus etims urnatis
+                                            quisle ratione lorem nets et sequi tempor.</p>
                                     </div>
-                                </section>
-                                <!-- get ready to discver section end here -->
+                                    <div class="d-flex align-items-center gap-3 ">
+                                        <i class="fa-solid fa-screwdriver-wrench promotIcons"></i>
+                                        <p class="pt-2">Tendis tempor ante acu ipsum finibus, et atimus etims urnatis
+                                            quisle ratione lorem nets et sequi tempor.</p>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-3 ">
+                                        <i class="fa-solid fa-umbrella promotIcons"></i>
+                                        <p class="pt-2">Tendis tempor ante acu ipsum finibus, et atimus etims urnatis
+                                            quisle ratione lorem nets et sequi tempor.</p>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-3 ">
+                                        <i class="fa-solid fa-heart promotIcons"></i>
+                                        <p class="pt-2">Tendis tempor ante acu ipsum finibus, et atimus etims urnatis
+                                            quisle ratione lorem nets et sequi tempor.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- promote your bussiness section end from here -->
 
-                                <!-- explore prjects section start here -->
-
-                                <section class=" pb-5 banckground">
-                                    <div class="container">
-                                        <div class="text-center mb-2 text-light">
-                                            <h1 class="font-weight-bold pt-5">Explore Latest Projects</h1>
-                                            <p class="text-center text-light w-50 m-auto">
-                                                There are many variations of passages of Lorem Ipsum available, but the
-                                                majority
-                                                have suffered alteration, by injected humour, or new randomised words.
-                                            </p>
-                                        </div>
-                                        <div class="pb-5 pt-5 explorewrper">
 
 
-                                            <div class="exploreItems">
-                                                hdfghfg
-                                            </div>
-                                            <div class="exploreItems">
-                                                hdfghfg
-                                            </div>
 
-                                            <div class="exploreItems">
-                                                hdfghfg
-                                            </div>
+                <!-- priging paln section start from here -->
+                <section id="price">
+                    <div class="container">
+                        <div class="m-4">
+                            <div class="text-center mb-2">
+                                <h1 class="font-weight-bold pt-5">Great Pricing Plans</h1>
+                                <p class="text-center text-muted w-50 m-auto">
+                                    There are many variations of passages of Lorem Ipsum available, but
+                                    the
+                                    majority
+                                    have suffered alteration, by injected humour, or new randomised
+                                    words.
+                                </p>
+                            </div>
+                            <div class="row">
+                                <div
+                                    class="col-md-4 d-flex flex-column align-items-center justify-content-center mt-5  p-4">
+                                    <h5 class="text-weight-bold h4">STANDARD</h5>
+                                    <h1 class="pricetitleprice">$19</h1>
+                                    <span class="pb-4 h5 text-muted">Per Month</span>
+                                    <button class="banckground cbtn">GET STARTED</button>
+                                    <div class="text-muted text-center pt-4 h5">
+                                        <p>24/7 Support</p>
+                                        <p>50 Gb Bandwidth</p>
+                                        <p>10 Themes</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 d-flex flex-column align-items-center justify-content-center mt-5">
+                                    <h5 class="text-weight-bold h4">SILVER</h5>
+                                    <h1 class="pricetitleprice">$29</h1>
+                                    <span class="pb-4 h5 text-muted">Per Month</span>
+                                    <button class="banckground cbtn">GET STARTED</button>
+                                    <div class="text-muted text-center pt-4 h5">
+                                        <p>24/7 Support</p>
+                                        <p>200 Gb Bandwidth</p>
+                                        <p>Unlimited Experiences</p>
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-md-4 d-flex flex-column align-items-center justify-content-center mt-5 banckground kk">
+                                    <h5 class="text-weight-bold h4">GOLD</h5>
+                                    <h1 class="pricetitleprice">$99</h1>
+                                    <span class="pb-4 h5 text-light">Per Month</span>
+                                    <button class="banckground cbtn">GET STARTED</button>
+                                    <div class="text-light text-center pt-4 h5">
+                                        <p>24/7 Support</p>
+                                        <p>Unlimited Bandwidth</p>
+                                        <p>All Experiences</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- priging paln section end from here -->
 
-                                            <div class="exploreItems">
-                                                hdfghfg
-                                            </div>
 
-                                            <div class="exploreItems">
-                                                hdfghfg
-                                            </div>
 
-                                        </div>
+
+                <section id="blogs" class="news ">
+                    <div class="container">
+                        <div class="ml-5 mr-5">
+                            <div class="text-center mb-2">
+                                <h1 class="font-weight-bold pt-5">Our Lestest Blogs</h1>
+                                <p class="text-center blackmuted w-50 m-auto">
+                                    There are many variations of passages of Lorem Ipsum available, but
+                                    the
+                                    majority
+                                    have suffered alteration, by injected humour, or new randomised
+                                    words.
+                                </p>
+                            </div>
+                            <div class="row mt-5 pb-5">
+                                <div class="col-sm-12 col-md-6 col-lg-3">
+                                    <div>
+                                        <img class="w-100" src="./image/image-section.jpg" alt="">
+                                    </div>
+                                    <div class="pt-3 pb-3 border">
+                                        <h3 class="">post title</h3>
+                                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Delectus, aliquid.
+                                        </p>
+                                        <a href="#">
+                                            <button class="banckground cbtn">Read More</button>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-6 col-lg-3">
+                                    <div>
+                                        <img class="w-100" src="./image/image-section.jpg" alt="">
+                                    </div>
+                                    <div class="pt-3 pb-3 border">
+                                        <h3 class="">post title</h3>
+                                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit.
+                                            Delectus, aliquid.
+                                        </p>
+                                        <a href="#">
+                                            <button class="banckground cbtn">Read More</button>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-12 col-md-6 col-lg-3">
+                                    <div>
+                                        <img class="w-100" src="./image/image-section.jpg" alt="">
+                                    </div>
+                                    <div class="pt-3 pb-3 border">
+                                        <h3 class="">post title</h3>
+                                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Delectus, aliquid.
+                                        </p>
+                                        <a href="#">
+                                            <button class="banckground cbtn">Read More</button>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-12 col-md-6 col-lg-3">
+                                    <div>
+                                        <img class="w-100" src="./image/image-section.jpg" alt="">
+                                    </div>
+                                    <div class="pt-3 pb-3 border">
+                                        <h3 class="">post title</h3>
+                                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Delectus, aliquid.
+                                        </p>
+                                        <a href="#">
+                                            <button class="banckground cbtn">Read More</button>
+                                        </a>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+
+                <!-- get i tuch or footer section start from here -->
+                <section id="getinTouch" class="footer">
+                    <div class="contaener">
+                        <div class="ml-5 mr-5">
+                            <div class="text-center mb-2">
+                                <h1 class="font-weight-bold pt-5">Get In Touch</h1>
+                                <p class="text-center blackmuted w-50 m-auto">
+                                    There are many variations of passages of Lorem Ipsum available, but
+                                    the
+                                    majority
+                                    have suffered alteration, by injected humour, or new randomised
+                                    words.
+                                </p>
+                            </div>
+                            <div class="w-75 m-auto row mt-5">
+                                <div class="d-flex gap-3 justify-content-around mb-5 iwrp">
+                                    <div class="w-100 d-flex flex-column">
+                                        <input required class="p-3 text-light mt-2 mb-2 border footerInput" type="text"
+                                            placeholder="Full Name*">
+                                        <input required class="p-3 text-light mt-2 mb-2 border footerInput" type="email"
+                                            placeholder="Email Address*">
+                                        <input required class="p-3 text-light mt-2 mb-2 border footerInput" type="tel"
+                                            placeholder="Phone Number*">
+                                    </div>
+                                    <div class="w-100">
+                                        <textarea class="footerInput p-3 border text-light mb-2 mt-2" name="massege"
+                                            id="" cols="50" rows="7" placeholder="Massege..."></textarea>
                                     </div>
 
-                                </section>
-
-                                <!-- explore prjects section end here -->
-
-
-
-
-
-
-
-                                <!-- the team section start here -->
-                                <section class="pb-5">
-                                    <div class="container">
-
-                                        <div class="text-center mb-2">
-                                            <h1 class="font-weight-bold pt-5">The Team Behind Pacifico</h1>
-                                            <p class="text-center text-muted w-50 m-auto">
-                                                There are many variations of passages of Lorem Ipsum available, but the
-                                                majority
-                                                have suffered alteration, by injected humour, or new randomised words.
-                                            </p>
-                                        </div>
-
-                                        <div class="row pb-5 pt-5">
-                                            <div class="col-sm-12 col-md-6 col-lg-3 teamItems">
-                                                1
-                                            </div>
-                                            <div class="col-sm-12 col-md-6 col-lg-3 teamItems">
-                                                1
-                                            </div>
-                                            <div class="col-sm-12 col-md-6 col-lg-3 teamItems">
-                                                1
-                                            </div>
-                                            <div class="col-sm-12 col-md-6 col-lg-3 teamItems">
-                                                1
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section>
-                                <!-- the team section start here -->
+                                </div>
+                                <button class="banckground mb-5 cbtn sendbtn">Send Massege</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- get in tuch or footer section end from here -->
 
 
-                                <!-- clients feedback section start here -->
-                                <section class="clientfeedback">
-
-                                </section>
-                                <!-- clients feedback section end here -->
-
-
-
-                                <!-- our servise section start here -->
-                                <section class="ourservise">
-                                    <div class="container">
-                                        <div class="text-center mb-2 text-light">
-                                            <h1 class="font-weight-bold pt-5">Discover Our Services</h1>
-                                            <p class="text-center blackmuted w-50 m-auto">
-                                                There are many variations of passages of Lorem Ipsum available, but the
-                                                majority
-                                                have suffered alteration, by injected humour, or new randomised words.
-                                            </p>
-                                        </div>
-                                        <div class="pt-5 pb-5">
-                                            <div class="row">
-                                                <div
-                                                    class="col-sm-12 col-md-4 col-lg-4  d-flex align-items-center justify-content-center gap-4 pb-4">
-                                                    <i class="fa-solid fa-headset text-light serviseIcons"></i>
-                                                    <div class="d-flex flex-column text-light">
-                                                        <h5>
-                                                            Support 24/7
-                                                        </h5>
-                                                        <p class="blackmuted">
-                                                            Utise wisi enim minim veniam, quis tation ullamcorper
-                                                            suscipit et loboti nisl consequat, wisi ad minim
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div
-                                                    class="col-sm-12 col-md-4 col-lg-4  d-flex align-items-center justify-content-center gap-4 pb-4">
-                                                    <i class="fa-solid fa-headset text-light serviseIcons"></i>
-                                                    <div class="d-flex flex-column text-light">
-                                                        <h5>User Friendly</h5>
-                                                        <p class="blackmuted">
-                                                            Utise wisi enim minim veniam, quis tation ullamcorper
-                                                            suscipit et loboti nisl consequat, wisi ad minim
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div
-                                                    class="col-sm-12 col-md-4 col-lg-4  d-flex align-items-center justify-content-center gap-4 pb-4">
-                                                    <i class="fa-solid fa-headset text-light serviseIcons"></i>
-                                                    <div class="d-flex flex-column text-light">
-                                                        <h5>
-                                                            Notifications</h5>
-                                                        <p class="blackmuted">
-                                                            Utise wisi enim minim veniam, quis tation ullamcorper
-                                                            suscipit et loboti nisl consequat, wisi ad minim
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div
-                                                    class="col-sm-12 col-md-4 col-lg-4  d-flex align-items-center justify-content-center gap-4 pb-4">
-                                                    <i class="fa-solid fa-headset text-light serviseIcons"></i>
-                                                    <div class="d-flex flex-column text-light">
-                                                        <h5>
-                                                            Chat With Friends</h5>
-                                                        <p class="blackmuted">
-                                                            Utise wisi enim minim veniam, quis tation ullamcorper
-                                                            suscipit et loboti nisl consequat, wisi ad minim
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div
-                                                    class="col-sm-12 col-md-4 col-lg-4  d-flex align-items-center justify-content-center gap-4 pb-4">
-                                                    <i class="fa-solid fa-headset text-light serviseIcons"></i>
-                                                    <div class="d-flex flex-column text-light">
-                                                        <h5>
-                                                            Accesability</h5>
-                                                        <p class="blackmuted">
-                                                            Utise wisi enim minim veniam, quis tation ullamcorper
-                                                            suscipit et loboti nisl consequat, wisi ad minim.
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <div
-                                                    class="col-sm-12 col-md-4 col-lg-4  d-flex align-items-center justify-content-center gap-4 pb-4">
-                                                    <i class="fa-solid fa-headset text-light serviseIcons"></i>
-                                                    <div class="d-flex flex-column text-light">
-                                                        <h5>
-                                                            Cost Control</h5>
-                                                        <p class="blackmuted">
-                                                            Utise wisi enim minim veniam, quis tation ullamcorper
-                                                            suscipit et loboti nisl consequat, wisi ad minim.
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-
-                                </section>
-                                <!-- our servise section end here -->
+                <!-- copryright section start from here -->
+                <section class="copyrightsection">
+                    <div class="container p-5">
+                        <h3 class="text-center text-light h6">Copyright © 2023 Pacifico. Designed by <a
+                                class="developer" href="https://developeremon.netlify.app/">Md Emon
+                                Hossen</a></h3>
+                        <div class="d-flex gap-5 w-50 pt-4 m-auto justify-content-center">
+                            <a href="">
+                                <i class="fa-brands brandIcons fa-facebook"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa-brands brandIcons fa-instagram"></i>
+                            </a>
+                            <a href=""><i class="fa-brands brandIcons fa-twitter"></i></a>
+                            <a href="">
+                                <i class="fa-brands brandIcons fa-skype"></i>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <!-- copryright section end from here -->
 
 
 
 
 
-                                <script
-                                    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-                                    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-                                    crossorigin="anonymous">
-                                    </script>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+                    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+                    crossorigin="anonymous">
+                    </script>
 </body>
 
 </html>

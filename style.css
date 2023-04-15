@@ -136,3 +136,119 @@ body {
 .blackmuted {
     color: rgb(143, 143, 143) !important;
 }
+
+.sececndGetreadySpan {
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(111, 110, 110);
+}
+
+.sececndGetreadyh3andspanwrp {
+    border-bottom: 3px solid #6B02FF;
+}
+
+.rokecticons {
+    color: rgb(111, 110, 110);
+    padding-right: 5px;
+}
+
+.countersectoin {
+    background: #f2f7f8;
+}
+
+.counterIcons {
+    color: #6b02ff6a !important;
+    font-size: 50px;
+}
+
+.promotIcons {
+    font-size: 50px;
+    color: #e8e8e8;
+}
+
+.news {
+    background: #f2f7f8;
+}
+
+.footer {
+    background: #272834;
+    color: #fff;
+}
+
+.pricetitleprice {
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.kk {
+    border-radius: 10px;
+}
+
+.sendbtn {
+    width: fit-content;
+    margin: auto;
+    border: none;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.footerInput {
+    background: transparent !important;
+    border-radius: 5px;
+}
+
+.copyrightsection {
+    background: #2f3539;
+}
+
+.toggoler {
+    color: transparent;
+}
+
+a {
+    text-decoration: none;
+}
+
+.developer {
+    color: #985BEF;
+}
+
+.brandIcons {
+    color: #fff;
+    font-size: 25px;
+    padding: 5px 0;
+}
+
+
+
+@media (max-width:768px) {
+
+    .manImage {
+        display: none;
+    }
+
+    .iwrp {
+        flex-direction: column;
+    }
+
+    .footerInput {
+        width: 100%;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+}
+
+
+@media (max-width:1200px) {
+    .manImagewrp {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .manImage {
+        width: 100% !important;
+    }
+}
