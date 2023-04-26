@@ -28,6 +28,7 @@ body {
     background: linear-gradient(to left, #6B02FF 0%, #985BEF 100%);
     position: sticky;
     top: 0;
+    z-index: 1000;
 }
 
 .navBrand {
@@ -97,6 +98,7 @@ body {
     display: flex;
     padding: 0 20px;
     justify-content: space-between;
+    height: 500px !important;
 }
 
 .exploreItems {
@@ -219,7 +221,87 @@ a {
     padding: 5px 0;
 }
 
+.feedbackimageErp {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 2px solid #985BEF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
 
+.profilePhoto {
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.swiper {
+    width: 100%;
+    height: 350px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+
+.letestSwiperSlider {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.letestSwiperSlider>div {
+    background: #fff;
+    border-radius: 5px;
+}
+
+.teamSwiperSlider {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+
+}
+
+.teamSwiperSlider>div {
+    background: #6B02FF;
+    border-radius: 5px;
+}
+
+
+#about {
+    scroll-margin-top: 60px;
+}
+
+#gallery {
+    scroll-margin-top: 60px;
+}
+
+#team {
+    scroll-margin-top: 60px;
+}
+
+#services {
+    scroll-margin-top: 60px;
+}
+
+#features {
+    scroll-margin-top: 60px;
+}
+
+#price {
+    scroll-margin-top: 60px;
+}
+
+#blogs {
+    scroll-margin-top: 60px;
+}
+
+#getinTouch {
+    scroll-margin-top: 60px;
+}
 
 @media (max-width:768px) {
 
