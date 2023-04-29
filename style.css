@@ -279,6 +279,13 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+}
+
+.teamSocil:hover {
+    background: #fff;
+    color: #6B02FF;
+
 }
 
 .swiper-button-prev {
