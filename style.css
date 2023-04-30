@@ -20,12 +20,12 @@ body {
 }
 
 .banckground {
-    background: linear-gradient(to left, #6B02FF 0%, #985BEF 100%) !important;
+    background: #5e6265 !important;
     color: #fff;
 }
 
 .header {
-    background: linear-gradient(to left, #6B02FF 0%, #985BEF 100%);
+    background: #5e6265;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -45,7 +45,9 @@ body {
 .slider {
     height: fit-content;
     width: 100%;
-    background: linear-gradient(to left, #6B02FF 0%, #985BEF 100%);
+    background: linear-gradient(#41424531, #41424531), url("./image/hero-bg.jpg");
+    background-size: cover;
+    height: 570px;
 }
 
 .cbtn {
@@ -82,12 +84,12 @@ body {
 }
 
 .fa-check {
-    color: #6B02FF;
+    color: #5e6265;
     padding-right: 10px;
 }
 
 .howWorkIcons {
-    color: #4285f4;
+    color: #5e6265;
     font-size: 40px !important;
     padding-bottom: 10px;
 }
@@ -132,7 +134,7 @@ body {
 }
 
 .serviseIcons {
-    color: #6b02ff6a !important;
+    color: #5e6265 !important;
     font-size: 70px;
 }
 
@@ -160,7 +162,7 @@ body {
 }
 
 .counterIcons {
-    color: #6b02ff6a !important;
+    color: #5e6265 !important;
     font-size: 50px;
 }
 
@@ -213,7 +215,7 @@ a {
 }
 
 .developer {
-    color: #985BEF;
+    color: #fff
 }
 
 .brandIcons {
@@ -226,7 +228,7 @@ a {
     width: 140px;
     height: 140px;
     border-radius: 50%;
-    border: 2px solid #985BEF;
+    border: 2px solid #5e6265;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -259,7 +261,7 @@ a {
 
 .teamProfile {
     border-radius: 50%;
-    border: 2px solid #6B02FF;
+    border: 2px solid #5e6265;
     width: 130px;
     height: 130px;
     margin: auto;
@@ -271,7 +273,7 @@ a {
 }
 
 .teamSocil {
-    background: #6B02FF;
+    background: #5e6265;
     color: #fff;
     width: 40px;
     height: 40px;
@@ -284,13 +286,13 @@ a {
 
 .teamSocil:hover {
     background: #fff;
-    color: #6B02FF;
+    color: #5e6265;
 
 }
 
 .swiper-button-prev {
     color: #fff !important;
-    background: #6B02FF;
+    background: #5e6265;
     padding: 10px;
     width: 50px;
     height: 50px;
@@ -299,7 +301,7 @@ a {
 
 .swiper-button-next {
     color: #fff !important;
-    background: #6B02FF;
+    background: #5e6265;
     padding: 10px;
     width: 50px;
     height: 50px;
@@ -325,7 +327,7 @@ a {
 }
 
 .teamSwiperSlider>div {
-    background: #6B02FF;
+    background: #5e6265;
     border-radius: 5px;
 }
 
