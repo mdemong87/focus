@@ -20,12 +20,12 @@ body {
 }
 
 .banckground {
-    background: #5e6265 !important;
+    background: #123457 !important;
     color: #fff;
 }
 
 .header {
-    background: #5e6265;
+    background: #123457;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -45,9 +45,21 @@ body {
 .slider {
     height: fit-content;
     width: 100%;
-    background: linear-gradient(#41424531, #41424531), url("./image/hero-bg.jpg");
+    background: linear-gradient(#123457ae, #123457ae), url("./image/hero-bg\ \(1\).jpg");
     background-size: cover;
     height: 570px;
+}
+
+.herobtn {
+    background: #fff;
+    border-radius: 5px;
+    color: #123457 !important;
+    transition: all 0.3s;
+}
+
+.herobtn:hover {
+    background: #123457;
+    color: #fff !important;
 }
 
 .cbtn {
@@ -84,12 +96,12 @@ body {
 }
 
 .fa-check {
-    color: #5e6265;
+    color: #123457;
     padding-right: 10px;
 }
 
 .howWorkIcons {
-    color: #5e6265;
+    color: #123457;
     font-size: 40px !important;
     padding-bottom: 10px;
 }
@@ -134,7 +146,7 @@ body {
 }
 
 .serviseIcons {
-    color: #5e6265 !important;
+    color: #ddd !important;
     font-size: 70px;
 }
 
@@ -149,7 +161,7 @@ body {
 }
 
 .sececndGetreadyh3andspanwrp {
-    border-bottom: 3px solid #6B02FF;
+    border-bottom: 3px solid #123457;
 }
 
 .rokecticons {
@@ -162,7 +174,7 @@ body {
 }
 
 .counterIcons {
-    color: #5e6265 !important;
+    color: #123457 !important;
     font-size: 50px;
 }
 
@@ -203,7 +215,7 @@ body {
 }
 
 .copyrightsection {
-    background: #2f3539;
+    background: #123457;
 }
 
 .toggoler {
@@ -228,7 +240,7 @@ a {
     width: 140px;
     height: 140px;
     border-radius: 50%;
-    border: 2px solid #5e6265;
+    border: 2px solid #123457;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -261,7 +273,7 @@ a {
 
 .teamProfile {
     border-radius: 50%;
-    border: 2px solid #5e6265;
+    border: 2px solid #123457;
     width: 130px;
     height: 130px;
     margin: auto;
@@ -273,7 +285,7 @@ a {
 }
 
 .teamSocil {
-    background: #5e6265;
+    background: #123457;
     color: #fff;
     width: 40px;
     height: 40px;
@@ -286,13 +298,13 @@ a {
 
 .teamSocil:hover {
     background: #fff;
-    color: #5e6265;
+    color: #123457;
 
 }
 
 .swiper-button-prev {
     color: #fff !important;
-    background: #5e6265;
+    background: #123457;
     padding: 10px;
     width: 50px;
     height: 50px;
@@ -301,7 +313,7 @@ a {
 
 .swiper-button-next {
     color: #fff !important;
-    background: #5e6265;
+    background: #123457;
     padding: 10px;
     width: 50px;
     height: 50px;
@@ -327,7 +339,7 @@ a {
 }
 
 .teamSwiperSlider>div {
-    background: #5e6265;
+    background: #123457;
     border-radius: 5px;
 }
 
@@ -382,6 +394,9 @@ a {
         width: 90%;
     }
 
+    .llll {
+        width: 100% !important;
+    }
 }
 
 
